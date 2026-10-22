@@ -1,0 +1,12 @@
+{
+  "checked": "2026-10-23",
+  "scope": "Public repositories only; a curated index, not an exhaustive portfolio or security certification",
+  "reports": [
+    {"topic": "Lian Li LED and LCD control", "repository": "led-control", "path": "docs/lian-li-tl-wireless-lcd-lighting.md"},
+    {"topic": "AI companion memory and bounded learning", "repository": "ai-companion-research", "path": "reports/2026-10-22-xiaoling-ai-companion.zh-HK.md"},
+    {"topic": "Retirement Monte Carlo experiments", "repository": "retirement-monte-carlo-lab", "path": "examples/demo__e6082db952396669/report.md"},
+    {"topic": "Orthogonal geometry validation", "repository": "orthogonal-geometry-checks", "path": "README.md"}
+  ],
+  "tools": ["multi-ai-hub", "companion-task-console", "trading-sim-companion", "nihongoquest-offline", "dual-lane-captions", "vrm-avatar-polish-loop"],
+  "owner": "Star-957"
+}
