@@ -2,7 +2,7 @@
 
 Windows automation, AI companion research, offline learning and reproducible Python experiments. Small, inspectable projects with explicit tests, assumptions and limits.
 
-繁體中文／廣東話：呢度集中放技術報告同可檢查嘅工具。每份報告分清楚實測、作者聲稱、推論同未驗證部分；示範程式唔等於完整產品。
+繁體中文／廣東話：呢度集中放技術報告同可檢查嘅工具。每份報告分清楚實測、作者聲稱、推論同未驗證部分
 
 ## Start with the reports
 
