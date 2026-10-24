@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Star — small inspectable tools, AI companions and reproducible experiments">
+  <title>Star — evidence-led tools, AI companions and reproducible experiments</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04060C"/>
+      <stop offset="52%" stop-color="#0A1020"/>
+      <stop offset="100%" stop-color="#0C0A1E"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="16%" cy="14%" r="62%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#22D3EE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowV" cx="88%" cy="88%" r="66%">
+      <stop offset="0%" stop-color="#B65CFF" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#B65CFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#B65CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowP" cx="8%" cy="96%" r="40%">
+      <stop offset="0%" stop-color="#E3B778" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#E3B778" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#7DD3FC" stop-opacity="0.30"/>
+      <stop offset="58%" stop-color="#B65CFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#B65CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="52%" stop-color="#DCEFFF"/>
+      <stop offset="100%" stop-color="#B65CFF"/>
+    </linearGradient>
+    <linearGradient id="ruleFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#7DD3FC" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#B65CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hexStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#B65CFF"/>
+    </linearGradient>
+    <linearGradient id="railGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#B65CFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8AB4F8" stroke-opacity="0.085" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect x="0" y="0" width="1200" height="300"/></clipPath>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <!-- base -->
+    <rect x="0" y="0" width="1200" height="300" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glowC)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glowV)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#glowP)"/>
+
+    <!-- geometric grid, breathing -->
+    <rect x="0" y="0" width="1200" height="300" fill="url(#grid)">
+      <animate attributeName="opacity" values="0.45;0.95;0.45" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- left accent rail -->
+    <rect x="0" y="0" width="3" height="300" fill="url(#railGrad)"/>
+
+    <!-- sweeping light band -->
+    <rect x="0" y="0" width="220" height="300" fill="url(#sweep)" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="-260 0;1340 0" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g fill="none" stroke="#33456B" stroke-width="1.5" stroke-linecap="square">
+      <path d="M26 62V30h34"/>
+      <path d="M1174 62V30h-34"/>
+      <path d="M26 238v32h34"/>
+      <path d="M1174 238v32h-34"/>
+    </g>
+
+    <!-- faint data lattice -->
+    <g fill="none" stroke="#2F4C74" stroke-width="1.1" stroke-opacity="0.5">
+      <path d="M700 96 H810 L838 124 V196"/>
+      <path d="M700 194 L750 166"/>
+      <path d="M838 124 L884 112"/>
+    </g>
+    <g>
+      <rect x="696" y="92" width="7" height="7" fill="#7DD3FC" fill-opacity="0.45"/>
+      <rect x="834" y="120" width="7" height="7" fill="#B65CFF" fill-opacity="0.45"/>
+      <rect x="696" y="190" width="7" height="7" fill="#22D3EE" fill-opacity="0.4"/>
+      <circle cx="838" cy="196" r="2.5" fill="#22D3EE">
+        <animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="884" cy="112" r="2.5" fill="#E3B778">
+        <animate attributeName="opacity" values="0.95;0.2;0.95" dur="4.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="750" cy="166" r="2.5" fill="#7DD3FC">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="66" y="80" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="4.4" fill="#22D3EE">EVIDENCE-LED BUILDER</text>
+    <circle cx="303" cy="76" r="3.4" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- name -->
+    <text x="62" y="166" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="96" font-weight="800" letter-spacing="12" fill="url(#nameFill)">STAR</text>
+    <rect x="66" y="184" width="360" height="2" fill="url(#ruleFill)"/>
+
+    <!-- subtitle -->
+    <text x="66" y="216" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="19.5" fill="#B9CBDE">Small, inspectable tools &#183; AI companions &#183; reproducible experiments</text>
+
+    <!-- tech strip -->
+    <text x="66" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#7C93B0">python &#183; typescript &#183; three.js &#183; blender &#183; ffmpeg &#160;&#160;/&#160;&#160; with tests, assumptions and stated limits</text>
+
+    <!-- right cluster: scanning ring -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 1035 150;360 1035 150" dur="28s" repeatCount="indefinite"/>
+      <circle cx="1035" cy="150" r="100" fill="none" stroke="#3B82F6" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="5 15"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="360 1035 150;0 1035 150" dur="40s" repeatCount="indefinite"/>
+      <circle cx="1035" cy="150" r="118" fill="none" stroke="#B65CFF" stroke-opacity="0.14" stroke-width="1" stroke-dasharray="2 26"/>
+    </g>
+
+    <!-- outer hexagon, drawn continuously -->
+    <polygon points="1035,74 1100.8,112 1100.8,188 1035,226 969.2,188 969.2,112"
+             fill="#0B1428" fill-opacity="0.55" stroke="url(#hexStroke)" stroke-width="2" stroke-linejoin="round"/>
+    <path id="hexPath" d="M1035 74 L1100.8 112 L1100.8 188 L1035 226 L969.2 188 L969.2 112 Z" fill="none" stroke="none"/>
+    <circle cx="1035" cy="74" r="3.6" fill="#7DD3FC" filter="url(#soft)">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#hexPath"/></animateMotion>
+    </circle>
+    <polygon points="1035,98 1080,124 1080,176 1035,202 990,176 990,124"
+             fill="none" stroke="#7DD3FC" stroke-opacity="0.35" stroke-width="1"/>
+
+    <!-- companion glyph -->
+    <g>
+      <line x1="1035" y1="120" x2="1035" y2="104" stroke="#7DD3FC" stroke-width="2" stroke-opacity="0.8"/>
+      <circle cx="1035" cy="99" r="4.5" fill="#22D3EE" filter="url(#soft)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="997" y="119" width="76" height="62" rx="18" fill="#22D3EE" fill-opacity="0.07" stroke="#7DD3FC" stroke-width="2"/>
+      <ellipse cx="1017" cy="146" rx="6.5" ry="6.5" fill="#22D3EE">
+        <animate attributeName="ry" values="6.5;6.5;0.9;6.5;6.5" keyTimes="0;0.9;0.93;0.96;1" dur="5.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1053" cy="146" rx="6.5" ry="6.5" fill="#22D3EE">
+        <animate attributeName="ry" values="6.5;6.5;0.9;6.5;6.5" keyTimes="0;0.9;0.93;0.96;1" dur="5.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M1021 163q14 11 28 0" fill="none" stroke="#7DD3FC" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.85"/>
+    </g>
+
+    <!-- orbiting nodes -->
+    <circle cx="935" cy="150" r="3.2" fill="#B65CFF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1135" cy="150" r="3.2" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0.2;1" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035" cy="30" r="2.6" fill="#7DD3FC">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035" cy="272" r="2.6" fill="#E3B778">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="5.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
