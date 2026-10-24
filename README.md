@@ -13,7 +13,7 @@
   <img alt="Cantonese, Japanese, English" src="https://img.shields.io/badge/%E5%BB%A3%E6%9D%B1%E8%A9%B1%20%C2%B7%20%E6%97%A5%E6%9C%AC%E8%AA%9E%20%C2%B7%20English-4B5563?style=flat-square">
 </p>
 
-## 你好，我係 Star 👋 &nbsp;·&nbsp; Hi, I'm Star
+## Sup , Star957 here 👋
 
 I build small, inspectable tools — and then write down exactly where they stop working.
 Windows automation, local-first AI companions, 3D/2D avatar pipelines, offline learning, and
