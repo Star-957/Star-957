@@ -18,8 +18,8 @@
     "vrm-avatar-polish-loop"
   ],
   "assets": {
-    "note": "Theme-aware banner, section rules and language charts are hand-written SVG committed in this repository; only the small shields.io badges are served by a third party.",
-    "files": ["assets/hero-dark.svg", "assets/hero-light.svg", "assets/rule-dark.svg", "assets/rule-light.svg", "assets/langs-dark.svg", "assets/langs-light.svg"]
+    "note": "Hand-written language charts live in this repository; only the small shields.io badges are served by a third party. The screenshots are the owner's own; the animated file is a re-framing of his own still, with no generative model involved.",
+    "files": ["assets/photo-main.jpg", "assets/denia.jpg", "assets/denia-motion.webp", "assets/langs-dark.svg", "assets/langs-light.svg"]
   },
   "owner": "Star-957"
 }

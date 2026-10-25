@@ -1,116 +1,56 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/hero-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/hero-light.svg" alt="Star — small, inspectable tools, AI companions and reproducible experiments" width="100%">
-  </picture>
-</p>
-
-<p align="center">
-  <a href="#-off-the-keyboard"><img alt="local-first by default" src="https://img.shields.io/badge/local--first-by%20default-6D28D9?style=flat-square"></a>
-  <a href="#-how-i-build"><img alt="evidence-led, no faked dones" src="https://img.shields.io/badge/evidence--led-no%20faked%20dones-0E7490?style=flat-square"></a>
-  <a href="#-how-i-build"><img alt="checkpoint then change then rollback" src="https://img.shields.io/badge/checkpoint%20%E2%86%92%20change%20%E2%86%92%20rollback-B45309?style=flat-square"></a>
-  <img alt="Cantonese, Japanese, English" src="https://img.shields.io/badge/%E5%BB%A3%E6%9D%B1%E8%A9%B1%20%C2%B7%20%E6%97%A5%E6%9C%AC%E8%AA%9E%20%C2%B7%20English-4B5563?style=flat-square">
+  <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/photo-main.jpg" alt="A dark classroom, a character looking back toward the camera, with a Japanese subtitle line" width="100%">
 </p>
 
 ## Sup , Star957 here 👋
 
-I build small, inspectable tools — and then write down exactly where they stop working.
-Windows automation, local-first AI companions, 3D/2D avatar pipelines, offline learning, and
-reproducible Python experiments. Everything here ships with its tests, its assumptions, and its limits.
+I make small tools and then take them apart again — desktop companions, 3D avatar
+pipelines, Windows odds and ends, and a lot of Python that tells you how unsure it is.
+Most of it happens after midnight.
 
-繁體中文／廣東話：呢度集中放技術報告同可檢查嘅工具。每份報告分清楚實測、作者聲稱、推論同未驗證部分 —— 唔會用「好似行得通」當證據。
+繁體中文／廣東話：我盡量寫清楚邊樣係我實測過，邊樣只係我估。
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg" alt="" width="100%">
-  </picture>
-</p>
+## What I'm poking at right now
 
-## ⚡ Off the keyboard
+- A desktop companion that runs entirely on my own machine, no cloud involved.
+- Getting MMD and VRM avatars to look *right* in Blender instead of almost right.
+- Teaching a video pipeline to prove what it actually looked at.
+- A Minecraft city that keeps growing one tower at a time.
 
-The code above doesn't come from nowhere. It comes from curiosity that mostly shows up after midnight.
+## Some things I've built
 
 | | |
 | --- | --- |
-| 🎮 **Gacha & open worlds** | Arknights · Arknights: Endfield · Wuthering Waves · Zenless Zone Zero · Skyrim (heavily modded, three installs deep) |
-| 🧱 **Minecraft megabuilds** | An orbital-city / space-elevator build driven by generated datapacks — ~200,000 block fills, plus my own palette and blockstate validation tooling |
-| 🧍 **3D & 2D avatar craft** | Blender · VRM · MMD · Live2D — PMX→VRM conversion, MToon shading, springbone hair, expression morphs |
-| 🤖 **AI companions & VTubers** | Local-first companion systems; and a video-audit method built on an auditable denominator and pixel-grounded coverage, instead of sampling a few clips |
-| 🖥️ **Desktop pets & window craft** | Companions that surface live agent/terminal activity on screen; a taskbar tuned until it politely disappears |
-| 🚗 **JDM & 改裝 culture** | Modification over stock, pop-up headlights, white leather with Tiffany-blue stitching. Dream garages only — I've never driven one |
-| 🎬 **Making things for people** | Short-form humour writing and editing — an interest, not yet a track record. Much happier *behind* the camera than in front of it |
-| 🌙 **Night owl** | The quiet hours are when the real work actually happens |
+| [video-evidence-toolkit](https://github.com/Star-957/video-evidence-toolkit) | Takes long videos apart and checks the coverage is real, not just a handful of screenshots. 144 offline checks. |
+| [multi-ai-hub](https://github.com/Star-957/multi-ai-hub) | A local hub so a few AI tools can hand work to each other, with a review step in the middle. |
+| [ai-companion-research](https://github.com/Star-957/ai-companion-research) | Dated notes on companion memory and bounded reasoning, in English and 繁體中文. What's demonstrated and what's just claimed are kept apart. |
+| [led-control](https://github.com/Star-957/led-control) | What I worked out getting Lian Li's LCD fans and OpenRGB to behave on Windows. |
+| [retirement-monte-carlo-lab](https://github.com/Star-957/retirement-monte-carlo-lab) | Runs a plan ten thousand times instead of pretending one number is the answer. |
+| [orthogonal-geometry-checks](https://github.com/Star-957/orthogonal-geometry-checks) | Box unions, winding and boundaries — without hand-waving past the floating point. |
+| [synthetic-withdrawal-simulations](https://github.com/Star-957/synthetic-withdrawal-simulations) | Withdrawal experiments on made-up balances, with tests for the worst case. |
+| [vrm-avatar-polish-loop](https://github.com/Star-957/vrm-avatar-polish-loop) | Agent skills and notes for getting VRM hair and skirts to stop misbehaving in Blender. |
+| [nihongoquest-offline](https://github.com/Star-957/nihongoquest-offline) | Japanese practice that works with no signal, because trains. |
+| [dual-lane-captions](https://github.com/Star-957/dual-lane-captions) | Captions that expire and reject replays, with a browser demo. |
+
+## Off the clock
+
+Arknights and its spinoffs, Wuthering Waves, ZZZ, and Skyrim with far too many mods
+installed. Minecraft megabuilds. JDM cars and 改裝 I'll probably never drive. Short
+videos, which I'm much happier editing than appearing in.
+
+### Denia corner 宣教區
+
+An unofficial shrine, entirely self-inflicted. She started life as a local project of
+mine — the still at the top of this page is from her. 路過就入嚟坐低啦。
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg" alt="" width="100%">
+    <source type="image/webp" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/denia-motion.webp">
+    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/denia.jpg" alt="A framed illustration of a pink-haired character beside a celebration cake" width="400">
   </picture>
 </p>
 
-## 🧪 How I build
-
-**Evidence has layers.** An offline check, a simulated run, a live run and a human acceptance are four
-different claims. A green test suite proves its stated case — never universal safety, visual acceptance
-or production readiness. I keep those layers apart on purpose.
-
-**Never fake a "done".** If it isn't verified, it's labelled unverified. Static proof is not acceptance.
-
-**Checkpoint → change → rollback.** A backup, a hash and a way back exist *before* anything is overwritten.
-
-**Maker ≠ checker.** Whoever wrote it doesn't get to be the only one who approves it.
-
-**Genuine RED → GREEN.** A test that never failed first isn't a test.
-
-**Local-first, fail-closed.** Private material stays private. Publishing is a deliberate act, not a default.
-
-**Show the work.** No confetti and no decoration standing in for evidence — just what ran, what it proved, and what it didn't.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg" alt="" width="100%">
-  </picture>
-</p>
-
-## 📌 Start with the reports
-
-| Topic | Read | What to expect |
-| --- | --- | --- |
-| **Lian Li LED & LCD control** | [Windows lighting report](https://github.com/Star-957/led-control/blob/main/docs/lian-li-tl-wireless-lcd-lighting.md) | How TL Wireless LCD lighting, fan rings and screen backlights differ; preserve images while switching illumination |
-| **AI companion memory & learning** | [小凌：記憶更正、有限心流與技能學習](https://github.com/Star-957/ai-companion-research/blob/main/reports/2026-10-22-xiaoling-ai-companion.zh-HK.md) | Dated public-source research; distinguishes demonstrations, creator claims and proposed experiments |
-| **Retirement Monte Carlo experiments** | [Model and limitations](https://github.com/Star-957/retirement-monte-carlo-lab) · [10,000-path example](https://github.com/Star-957/retirement-monte-carlo-lab/blob/main/examples/demo__e6082db952396669/report.md) | Normalized balances, disclosed assumptions and hash-verified outputs; not personal financial advice or a guarantee |
-| **Orthogonal geometry validation** | [Box-union checks and synthetic tests](https://github.com/Star-957/orthogonal-geometry-checks) | Directed boundaries, winding and explicit representation rules; floating-point checks, not general mesh or game-runtime certification |
-
-## 🧰 More code to explore
-
-| Project | Scope |
-| --- | --- |
-| [Video Evidence Toolkit](https://github.com/Star-957/video-evidence-toolkit) | Long-form video acquisition and visual-coverage validation, with 144 offline regression checks. No media or research records included |
-| [Multi-AI Hub](https://github.com/Star-957/multi-ai-hub) | Local-first MCP coordination and bounded review workflows |
-| [Companion Task Console](https://github.com/Star-957/companion-task-console) | Synthetic task replay and an original geometric desktop-companion UI |
-| [Synthetic Withdrawal Simulations](https://github.com/Star-957/synthetic-withdrawal-simulations) | Monte Carlo withdrawal experiments with deterministic terminal-loss regression tests |
-| [Trading Sim Companion](https://github.com/Star-957/trading-sim-companion) | Offline synthetic event replay; no real accounts, orders or market feed |
-| [NihongoQuest Offline](https://github.com/Star-957/nihongoquest-offline) | Japanese-practice core with synthetic lessons and local progress |
-| [Dual-Lane Captions](https://github.com/Star-957/dual-lane-captions) | Speech/listening captions, expiry and replay rejection, with a browser demo |
-| [VRM Avatar Polish Loop](https://github.com/Star-957/vrm-avatar-polish-loop) | Agent workflow skills for Blender/MMD inspection, SpringBone tuning and visual QA |
-
-A machine-readable index of this page lives in [`catalog.json`](https://github.com/Star-957/Star-957/blob/main/catalog.json).
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg" alt="" width="100%">
-  </picture>
-</p>
-
-## 🛠 Toolbox
+## Things I reach for
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -118,7 +58,6 @@ A machine-readable index of this page lives in [`catalog.json`](https://github.c
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white">
-  <br>
   <img alt="three.js" src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
   <img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white">
   <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white">
@@ -126,16 +65,6 @@ A machine-readable index of this page lives in [`catalog.json`](https://github.c
   <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
-
-## 📈 Public work, at a glance
-
-| Signal | Value |
-| --- | --- |
-| Public repositories | **13** |
-| Offline regression checks in the video evidence toolkit alone | **144** |
-| Deterministic test suites (geometry + Monte Carlo) | **3 repos** |
-| Report languages | English · 繁體中文 |
-| Banner, section rules, language chart | Hand-written SVG committed in this repo (the small shields.io badges are the one third-party visual) |
 
 <p align="center">
   <picture>
@@ -145,20 +74,7 @@ A machine-readable index of this page lives in [`catalog.json`](https://github.c
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg">
-    <img src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/rule-light.svg" alt="" width="100%">
-  </picture>
-</p>
-
-## 📖 Reading the evidence
-
-Tests establish the documented cases, not universal safety, visual acceptance or production readiness.
-Public reports are dated research snapshots; follow their source links and stated limitations. Tool
-mentions are not endorsements. Check each repository's own licence and third-party notices before
-reuse: public visibility alone does not grant a blanket licence.
-
-This is a curated index of public work, checked on **2026-10-25**. It contains no private-project
-directory, personal records, credentials, original artwork or raw conversations.
+<sub>Most of the code here ships with its tests, its assumptions and its limits. A
+passing test proves the case it covers and not much more. The screenshots above are
+mine; no personal records or credentials are included. There's a machine-readable
+index of this page in <a href="https://github.com/Star-957/Star-957/blob/main/catalog.json">catalog.json</a>.</sub>
