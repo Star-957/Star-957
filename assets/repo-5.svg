@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Repository retirement-monte-carlo-lab, Python: Reproducible Monte Carlo experiments with normalized balances, disclosed assumptions and verified report bundles.">
+  <title>retirement-monte-carlo-lab — Python</title>
+
+  <defs>
+    <linearGradient id="topHighlight" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="399" height="119" rx="8" fill="#0D1117" stroke="#21262D"/>
+  <path d="M9 1 H391" fill="none" stroke="url(#topHighlight)" stroke-width="1"/>
+
+  <g transform="translate(16,14)" fill="none" stroke="#8B949E" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="0.6" y="0.6" width="12.8" height="12.8" rx="2.4"/>
+    <path d="M4.9 0.7 V13.3"/>
+    <path d="M0.7 3.9 H4.9"/>
+  </g>
+
+  <text x="38" y="25" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="0.3" fill="#E6EDF3">retirement-monte-carlo-lab</text>
+
+  <g font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8B949E">
+    <text x="38" y="51">Reproducible Monte Carlo experiments with</text>
+    <text x="38" y="65.5">normalized balances, disclosed assumptions and</text>
+    <text x="38" y="80">verified report bundles.</text>
+  </g>
+
+  <circle cx="42.5" cy="99.5" r="4.5" fill="#3776AB"/>
+  <text x="53" y="103" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">Python</text>
+
+  <path d="M383 15 H391 V23" fill="none" stroke="#B65CFF" stroke-opacity="0.38" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

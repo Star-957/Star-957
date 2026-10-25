@@ -6,10 +6,13 @@
 
 I build small tools and then take them apart again — desktop companions, 3D avatar
 pipelines, Windows odds and ends, and a lot of Python that tells you how unsure it is.
-Most of it happens after midnight.
+Most of it happens after midnight, which is a habit I have decided not to examine.
 
-繁體中文／廣東話：我盡量寫清楚邊樣係我實測過、邊樣只係我估。
-日本語も勉強中なので、たまに混ざります。
+I speak **English, Cantonese, Japanese and Mandarin**. Say hi in whichever one you like.
+
+<p align="center">
+  <a href="https://tokens.ci/u/Star-957"><img alt="Live token usage from tokens.ci" src="https://tokens.ci/api/badge/Star-957/svg"></a>
+</p>
 
 ## 🌙 What I'm on right now
 
@@ -18,44 +21,90 @@ Most of it happens after midnight.
   time keeping that memory honest.
 - **Avatars that survive Blender.** MMD and VRM models — springbone hair that stops
   exploding, skirts that stop clipping through legs, expressions that actually bind.
-- **A video pipeline that has to prove what it looked at.** Coverage checks
-  instead of three screenshots and a confident summary.
+- **A video pipeline that has to prove what it looked at.** Coverage checks instead of
+  three screenshots and a confident summary.
 - **A Minecraft city that keeps growing.** It started as one tower. Now there's a
-  station, a hotel and a space elevator, and the datapack writes half of it.
+  station, a hotel and a space elevator, and a datapack writes half of it.
+- **Japanese practice that runs offline**, because the train has no signal and I refuse
+  to lose a streak to a tunnel.
 
-## 🧰 Things I've built
+## 📊 AI telemetry
+
+I run most of this through coding agents, and the Tokens CLI keeps score in public.
+These are live cards from **[tokens.ci](https://tokens.ci/u/Star-957)** — they refresh
+themselves, and each card prints its own date, so you are reading something current to
+within a minute or so rather than whatever it was on the day I wrote this page.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/Star-957/svg?template=graph&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/Star-957/svg?template=graph&amp;theme=light">
+    <img src="https://tokens.ci/api/embed/Star-957/svg?template=graph&amp;theme=light" alt="Live contribution heatmap of AI token usage over the last year" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/Star-957/svg?template=detailed&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/Star-957/svg?template=detailed&amp;theme=light">
+    <img src="https://tokens.ci/api/embed/Star-957/svg?template=detailed&amp;theme=light" alt="Live breakdown of today's AI usage by client and model" width="100%">
+  </picture>
+</p>
+
+The honest read of those numbers is that almost all of it is cached context — I am not
+paying for intelligence, I am paying for a model re-reading its own homework.
+
+## 🧰 Start with these
+
+<p align="center">
+  <a href="https://github.com/Star-957/video-evidence-toolkit"><img width="400" alt="video-evidence-toolkit" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-1.svg"></a>
+  <a href="https://github.com/Star-957/multi-ai-hub"><img width="400" alt="multi-ai-hub" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-2.svg"></a>
+  <br>
+  <a href="https://github.com/Star-957/ai-companion-research"><img width="400" alt="ai-companion-research" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-3.svg"></a>
+  <a href="https://github.com/Star-957/led-control"><img width="400" alt="led-control" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-4.svg"></a>
+  <br>
+  <a href="https://github.com/Star-957/retirement-monte-carlo-lab"><img width="400" alt="retirement-monte-carlo-lab" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-5.svg"></a>
+  <a href="https://github.com/Star-957/vrm-avatar-polish-loop"><img width="400" alt="vrm-avatar-polish-loop" src="https://raw.githubusercontent.com/Star-957/Star-957/main/assets/repo-6.svg"></a>
+</p>
+
+The video toolkit alone carries 144 offline regression checks, which is either
+diligence or a coping mechanism. Probably both.
+
+## 📚 The rest of it
 
 | Project | What it actually does |
 | --- | --- |
-| [video-evidence-toolkit](https://github.com/Star-957/video-evidence-toolkit) | Takes long videos apart and checks the visual coverage is real, not just a handful of screenshots. 144 offline checks behind it. |
-| [multi-ai-hub](https://github.com/Star-957/multi-ai-hub) | A local hub so a few AI tools can hand work to each other, with a review step in the middle. |
-| [ai-companion-research](https://github.com/Star-957/ai-companion-research) | Dated notes on companion memory and bounded reasoning, in English and 繁體中文. What's demonstrated and what's merely claimed are kept apart. |
-| [led-control](https://github.com/Star-957/led-control) | What I worked out getting Lian Li's LCD fans and OpenRGB to behave on Windows, and how to preserve the screen image while the lighting changes. |
-| [retirement-monte-carlo-lab](https://github.com/Star-957/retirement-monte-carlo-lab) | Runs a plan ten thousand times instead of pretending one number is the answer. Assumptions and limits written down. |
 | [orthogonal-geometry-checks](https://github.com/Star-957/orthogonal-geometry-checks) | Box unions, winding and boundaries — without hand-waving past the floating point. |
 | [synthetic-withdrawal-simulations](https://github.com/Star-957/synthetic-withdrawal-simulations) | Withdrawal experiments on made-up balances, with tests for the worst case. |
-| [vrm-avatar-polish-loop](https://github.com/Star-957/vrm-avatar-polish-loop) | Agent skills and notes for getting VRM hair and skirts to stop misbehaving in Blender. |
 | [companion-task-console](https://github.com/Star-957/companion-task-console) | A small geometric desktop console that replays recorded tasks, so I can test the UI without live data. |
 | [nihongoquest-offline](https://github.com/Star-957/nihongoquest-offline) | Japanese practice that works with no signal, because trains. |
 | [dual-lane-captions](https://github.com/Star-957/dual-lane-captions) | Captions that expire and reject replays, with a browser demo. |
 | [trading-sim-companion](https://github.com/Star-957/trading-sim-companion) | Replays made-up market events so I can watch a companion react. No real money anywhere near it. |
 
-## 🎮 Off the clock
+## 🛠 Daily drivers
 
-**Games.** Arknights and Endfield — my longest-running grind — plus Wuthering Waves
-and ZZZ. Skyrim with a mod list I'm a little ashamed of. Minecraft when I want to
-build rather than fight.
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white">
+  <img alt="three.js" src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
+  <img alt="ffmpeg" src="https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white">
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white">
+  <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+</p>
 
-**Avatars.** Blender, MMD, VRM, Live2D. Getting a model to move like it has weight is
-its own kind of puzzle, and I'll happily lose a night to springbone tuning.
+## 🖥 Where all this runs
 
-**Cars.** JDM and 改裝 — pop-up headlights, white leather with Tiffany-blue stitching.
-Dream garages only; I've never actually driven one.
+- A Windows desktop with an **RTX 4090** in it — the local models, Blender and the
+  heavy encodes all live there.
+- A MacBook that has to keep up, with both machines synced so I can pick a project up
+  on either one.
+- Obsidian for notes, because future-me remembers nothing and deserves better.
+- Way too many terminal windows, and an LED setup I spent an unreasonable weekend
+  reverse-engineering.
 
-**Making things.** Short videos, mostly editing. I'd much rather be behind the camera
-than in front of it.
-
-## 🌸 推し壁 · the wall
+## 🌸 The oshi wall
 
 A tiny corner of the internet that exists purely because I like her. She began as a
 local project of mine, and the still at the top of this page came out of it.
@@ -73,21 +122,14 @@ local project of mine, and the still at the top of this page came out of it.
   <sub>She has opinions about my sleep schedule. She is correct.</sub>
 </p>
 
-## 🛠 Things I reach for
+## 🌱 Currently learning
 
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white">
-  <img alt="three.js" src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
-  <img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white">
-  <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white">
-  <img alt="ffmpeg" src="https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white">
-  <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-</p>
+- **Blender rigging, properly.** Not "it moves", but "it moves like it has mass".
+- **Japanese, every day**, with a streak I am mildly superstitious about.
+- **Local model tuning.** Quantisation, context budgets, and why my fans spin up.
+- **Patience with my own tools.** The hardest one.
+
+## 📈 Language mix
 
 <p align="center">
   <picture>
@@ -97,9 +139,29 @@ local project of mine, and the still at the top of this page came out of it.
   </picture>
 </p>
 
+## 🧩 Small facts, free of charge
+
+- I'm a night owl in the literal sense: most of this is written between midnight and 4am.
+- The most useful thing I've learned is to write down what a test does *not* prove.
+
+## 🎮 Off the clock
+
+**Games.** Arknights and Endfield — my longest-running grind — plus Wuthering Waves
+and ZZZ. Skyrim with a mod list I'm a little ashamed of. Minecraft when I want to
+build rather than fight.
+
+**Avatars.** Blender, MMD, VRM, Live2D. Getting a model to move like it has weight is
+its own kind of puzzle, and I will happily lose a night to springbone tuning.
+
+**Cars.** JDM and car modification — pop-up headlights, white leather with Tiffany-blue
+stitching. Dream garages only; I've never actually driven one.
+
+**Making things.** Short videos, mostly editing. I'd much rather be behind the camera
+than in front of it.
+
 <sub>Most of the code here ships with its tests, its assumptions and its limits. A
 passing test proves the case it covers and not much more. The screenshots above are
 mine; the other illustrations are collected artwork that belongs to the artists who
 drew them, shown here as a personal display and not as my work. No personal records
-or credentials are included. There's a
-machine-readable index of this page in <a href="https://github.com/Star-957/Star-957/blob/main/catalog.json">catalog.json</a>.</sub>
+or credentials are included. There's a machine-readable index of this page in
+<a href="https://github.com/Star-957/Star-957/blob/main/catalog.json">catalog.json</a>.</sub>

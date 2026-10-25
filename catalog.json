@@ -18,14 +18,29 @@
     "vrm-avatar-polish-loop"
   ],
   "assets": {
-    "note": "The language charts are hand-written SVG in this repository; only the small shields.io badges are served by a third party. The animated file is a re-framing of the owner's own still, produced with deterministic image operations and no generative model. The illustrations are collected artwork belonging to their respective artists and are shown here as a personal display, not as the owner's work.",
+    "note": "Everything except the small shields.io badges and the live tokens.ci telemetry cards is hand-written SVG or the owner's own imagery, committed here so the page does not depend on a third-party card service. The animated file is a re-framing of the owner's own still, produced with deterministic image operations and no generative model. The illustrations are collected artwork belonging to their respective artists and are shown here as a personal display, not as the owner's work.",
     "files": [
       "assets/photo-main.jpg",
       "assets/oshi-wall.jpg",
       "assets/denia.jpg",
       "assets/denia-motion.webp",
+      "assets/repo-1.svg",
+      "assets/repo-2.svg",
+      "assets/repo-3.svg",
+      "assets/repo-4.svg",
+      "assets/repo-5.svg",
+      "assets/repo-6.svg",
       "assets/langs-dark.svg",
       "assets/langs-light.svg"
+    ]
+  },
+  "ai_usage": {
+    "source": "https://tokens.ci/u/Star-957",
+    "notes": "Public leaderboard figures reported by the Tokens CLI, rendered server-side by tokens.ci and embedded live. Nothing is cached in this repository, so the numbers on the page are current rather than a dated snapshot.",
+    "live_embeds": [
+      "https://tokens.ci/api/embed/Star-957/svg?template=graph",
+      "https://tokens.ci/api/embed/Star-957/svg?template=detailed",
+      "https://tokens.ci/api/badge/Star-957/svg"
     ]
   },
   "owner": "Star-957"
