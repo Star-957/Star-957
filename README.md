@@ -8,7 +8,7 @@ I build small tools and then take them apart again — desktop companions, 3D av
 pipelines, Windows odds and ends, and a lot of Python that tells you how unsure it is.
 Most of it happens after midnight, which is a habit I have decided not to examine.
 
-I speak **English, Cantonese, Japanese and Mandarin**. Say hi in whichever one you like.
+I speak **English, Cantonese, Japanese and a little Mandarin**. Say hi in whichever one you like.
 
 <p align="center">
   <a href="https://tokens.ci/u/Star-957"><img alt="Live token usage from tokens.ci" src="https://tokens.ci/api/badge/Star-957/svg"></a>
