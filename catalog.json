@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25",
+  "checked": "2026-10-26",
   "scope": "Public repositories only; a curated index, not an exhaustive portfolio or security certification",
   "reports": [
     {"topic": "Lian Li LED and LCD control", "repository": "led-control", "path": "docs/lian-li-tl-wireless-lcd-lighting.md"},
@@ -18,8 +18,15 @@
     "vrm-avatar-polish-loop"
   ],
   "assets": {
-    "note": "Hand-written language charts live in this repository; only the small shields.io badges are served by a third party. The screenshots are the owner's own; the animated file is a re-framing of his own still, with no generative model involved.",
-    "files": ["assets/photo-main.jpg", "assets/denia.jpg", "assets/denia-motion.webp", "assets/langs-dark.svg", "assets/langs-light.svg"]
+    "note": "The language charts are hand-written SVG in this repository; only the small shields.io badges are served by a third party. The animated file is a re-framing of the owner's own still, produced with deterministic image operations and no generative model. The illustrations are collected artwork belonging to their respective artists and are shown here as a personal display, not as the owner's work.",
+    "files": [
+      "assets/photo-main.jpg",
+      "assets/oshi-wall.jpg",
+      "assets/denia.jpg",
+      "assets/denia-motion.webp",
+      "assets/langs-dark.svg",
+      "assets/langs-light.svg"
+    ]
   },
   "owner": "Star-957"
 }
